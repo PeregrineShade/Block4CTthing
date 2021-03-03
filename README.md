@@ -51,16 +51,31 @@ Remember: the idea behind a Parson's Problem is that you are
 shown completely correct code that is presented OUT OF ORDER.
 When arranged correctly, the code does what the Parson's Problem
 says it should do.
-
 """
 
 
 #Write your answer to Parson's Problem #1 below:
+
+"""
 #basic for loop
-for x in:
-print("hello world!")
+for x in range(0,10):
+    print("hello world!")
+"""
+
+
 
 #Write your answer to Parson's Problem #2 below:
+"""
+x = input("Gimme a number!")
+x = int(x)
+try:
+    if x > 0:
+        print("test")
+    else:
+        print("other test")
 
+except ValueError:
+    pass
+"""
 
 #Write your answer to Parson's Problem #3 below:
